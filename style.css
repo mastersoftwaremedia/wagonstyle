@@ -1,0 +1,64 @@
+/*Fonts and Colors*/
+body {
+ background-color: rgb(240,240,240);
+ color: rgb(20,20,20);
+ font-family: 'Open Sans', sans-serif;
+ margin: 0 auto;
+ padding: 0;
+}
+h1 {
+ font-family: 'Montserrat', sans-serif;
+ color: #ff5607;
+ font-size: 50px;
+}
+h2 {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 18px;	
+}
+a {
+ text-decoration: none;
+ color: blue;
+}
+a:hover {
+ text-decoration: none;
+ color: green;
+}
+
+/*Layout Design Format */
+header {
+ background-image: url("https://unsplash.it/1000/600/?random");
+ background-size: cover;
+ padding: 150px 0;
+ text-align: center;
+ color: #ffffff;
+}
+header h1 {
+ color: #ffffff;
+}
+header p {
+ color: #ffffff;
+ font-size: 30px;
+ font-weight: lighter;
+
+ 
+}
+.card {
+ padding: 50px;
+ text-align: center;
+
+}
+footer {
+ background-color: #000000;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 20px;
+}
+
+footer a {
+ font-size: 20px;
+ color: gray;
+}
+footer a:hover{
+ font-size: 20px;
+ color: white;
+}
